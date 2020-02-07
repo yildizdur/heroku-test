@@ -1,15 +1,7 @@
-
-# vscode
 .vscode
-
-# Logs
+package-lock.json
 logs
 *.log
-
-# Dependency directories
 node_modules/ 
-
-# dotenv environment variables file
 #.env
 #.env.test 
- 
