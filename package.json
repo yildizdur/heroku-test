@@ -1,19 +1,23 @@
 {
-  "name": "heroku-app-1",
+  "name": "heroku-test",
   "version": "1.0.0",
-  "description": "node app ",
+  "description": "",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js"
-},
+    "start": "nodemon app.js"
+  },
   "repository": {
-  "type": "git",
-  "url": ""
-},
+    "type": "git",
+    "url": "git+https://github.com/recepdur/heroku-test.git"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
-  "url": ""
-},
-  "homepage": ""
+    "url": "https://github.com/recepdur/heroku-test/issues"
+  },
+  "homepage": "https://github.com/recepdur/heroku-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
 }
