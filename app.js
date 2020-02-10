@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const server = http.createServer((req, res) => {
+app.get('/', (req, res) => {	
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/html');
     res.end('<h1>Hello World</h1>');
